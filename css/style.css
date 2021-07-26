@@ -1,0 +1,149 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("../img/bodybg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  padding: 10px;
+  max-width: 380px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 380px;
+  height: 160px;
+
+  background-image: url("../img/bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+}
+.clear {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.clear i {
+  font-size: 30px;
+  color: #fff;
+}
+.clear i:hover {
+  cursor: pointer;
+  text-shadow: 1px 3px 5px #000;
+  transform: rotate(45deg);
+}
+#date {
+  height: 100px;
+  width: 60%;
+  position: absolute;
+  bottom: 10px;
+  padding: 10px;
+  color: #254b4a;
+  background-color: #254b4a4f;
+  font-size: 1.2rem;
+  font-family: "Orbitron", sans-serif;
+}
+
+.content {
+  width: 380px;
+  height: 350px;
+  max-height: 350px;
+  background-color: #fff;
+  overflow: auto;
+}
+
+.content ul {
+  padding: 0;
+  margin: 0;
+}
+.item {
+  width: 100%;
+  color: #254b4a;
+  height: 45px;
+  min-height: 45px;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.item i.co {
+  position: absolute;
+  font-size: 25px;
+  padding-left: 5px;
+  left: 15px;
+  top: 10px;
+}
+.item i.co:hover {
+  cursor: pointer;
+}
+.fa-check-circle {
+  color: #6eb200;
+}
+.item p.text {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  left: 50px;
+  top: 10px;
+  text-transform: capitalize;
+  background-color: #fff;
+  max-width: 285px;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+  color: #ccc;
+}
+.item i.de {
+  position: absolute;
+  font-size: 25px;
+  right: 15px;
+  top: 10px;
+}
+.item i.de:hover {
+  color: #af0000;
+  cursor: pointer;
+}
+
+.add-to-do {
+  border-bottom: 1px solid rgb(187, 184, 184);
+  position: relative;
+  width: 360px;
+  height: 40px;
+  background-color: #fff;
+  padding: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.add-to-do i {
+  position: absolute;
+  font-size: 40px;
+  color: #254b4a;
+  cursor: pointer;
+}
+.add-to-do i:hover {
+  color: #0e7439a9;
+}
+
+.add-to-do input {
+  position: absolute;
+  left: 50px;
+  height: 35px;
+  width: 310px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  padding-left: 20px;
+}
